@@ -1,0 +1,13 @@
+2022/12/25 06:22:45 AzcopyVersion  10.16.2
+2022/12/25 06:22:45 OS-Environment  windows
+2022/12/25 06:22:45 OS-Architecture  amd64
+2022/12/25 06:22:45 Log times are in UTC. Local time is 25 Dec 2022 11:52:45
+2022/12/25 06:22:46 ==> REQUEST/RESPONSE (Try=1/243.9096ms, OpTime=1.0074981s) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://pavan20032000.blob.core.windows.net/landingprivate/Order-xsqk4E7OcD.csv?se=2022-12-27T14%3A17%3A35Z&sig=-REDACTED-&sp=rwdlacyx&spr=https%2Chttp&srt=sco&ss=b&st=2022-12-25T06%3A17%3A35Z&sv=2021-06-08&timeout=901
+   X-Ms-Request-Id: [3ec3ebce-901e-0075-4029-18a191000000]
+
+2022/12/25 06:22:47 ==> REQUEST/RESPONSE (Try=1/232.8611ms, OpTime=232.8611ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://pavan20032000.blob.core.windows.net/landingprivate/Order-xsqk4E7OcD.csv?se=2022-12-27T14%3A17%3A35Z&sig=-REDACTED-&sp=rwdlacyx&spr=https%2Chttp&srt=sco&ss=b&st=2022-12-25T06%3A17%3A35Z&sv=2021-06-08&timeout=901
+   X-Ms-Request-Id: [3ec3ebd4-901e-0075-4429-18a191000000]
+
+2022/12/25 06:22:49 Closing Log

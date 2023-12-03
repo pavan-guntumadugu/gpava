@@ -1,0 +1,31 @@
+2022/12/22 17:41:18 AzcopyVersion  10.16.2
+2022/12/22 17:41:18 OS-Environment  windows
+2022/12/22 17:41:18 OS-Architecture  amd64
+2022/12/22 17:41:18 Log times are in UTC. Local time is 22 Dec 2022 23:11:18
+2022/12/22 17:41:19 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2022-12-22T17:41:13Z or --include-after=2022-12-22T17:41:13Z
+2022/12/22 17:41:20 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2022/12/22 17:41:21 Job-Command copy https://dataengiprojectazure1.blob.core.windows.net/pavan/arjun.jpg?se=2023-01-17t20%3A40%3A47z&sig=-REDACTED-&sp=rwdlacyx&spr=https%2Chttp&srt=sco&ss=b&st=2022-12-22t12%3A40%3A47z&sv=2021-06-08 C:\Users\gpava\AppData\Local\Temp\16717308782702\arjun.jpg --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=BlobLocal --blob-type BlockBlob --recursive --log-level=INFO 
+2022/12/22 17:41:21 Number of CPUs: 16
+2022/12/22 17:41:21 Max file buffer RAM 8.000 GB
+2022/12/22 17:41:21 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2022/12/22 17:41:21 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2022/12/22 17:41:21 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2022/12/22 17:41:21 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2022/12/22 17:41:21 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2022/12/22 17:41:21 Max open files when downloading: 2147479959 (auto-computed)
+2022/12/22 17:41:21 Final job part has been created
+2022/12/22 17:41:21 Trying 4 concurrent connections (initial starting point)
+2022/12/22 17:41:21 JobID=271306d2-1acc-8f45-7c7c-6d0f77e802e2, credential type: Anonymous
+2022/12/22 17:41:21 scheduling JobID=271306d2-1acc-8f45-7c7c-6d0f77e802e2, Part#=0, Transfer#=0, priority=0
+2022/12/22 17:41:21 Final job part has been scheduled
+2022/12/22 17:41:21 INFO: [P#0-T#0] has worker 7 which is processing TRANSFER 0
+2022/12/22 17:41:22 ==> REQUEST/RESPONSE (Try=1/335.7818ms, OpTime=1.0850385s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://dataengiprojectazure1.blob.core.windows.net/pavan/arjun.jpg?se=2023-01-17T20%3A40%3A47Z&sig=-REDACTED-&sp=rwdlacyx&spr=https%2Chttp&srt=sco&ss=b&st=2022-12-22T12%3A40%3A47Z&sv=2021-06-08&timeout=901
+   X-Ms-Request-Id: [f6f8af2d-301e-002a-7c2c-1677e7000000]
+
+2022/12/22 17:41:22 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\gpava\AppData\Local\Temp\16717308782702\arjun.jpg
+2022/12/22 17:41:22 JobID=271306d2-1acc-8f45-7c7c-6d0f77e802e2, Part#=0, TransfersDone=1 of 1
+2022/12/22 17:41:22 all parts of entire Job 271306d2-1acc-8f45-7c7c-6d0f77e802e2 successfully completed, cancelled or paused
+2022/12/22 17:41:22 is part of Job which 1 total number of parts done 
+2022/12/22 17:41:23 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs:  4
+2022/12/22 17:41:23 100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.2099

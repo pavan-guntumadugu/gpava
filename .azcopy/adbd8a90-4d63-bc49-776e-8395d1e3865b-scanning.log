@@ -1,0 +1,13 @@
+2023/01/02 14:52:27 AzcopyVersion  10.16.2
+2023/01/02 14:52:27 OS-Environment  windows
+2023/01/02 14:52:27 OS-Architecture  amd64
+2023/01/02 14:52:27 Log times are in UTC. Local time is 2 Jan 2023 20:22:27
+2023/01/02 14:52:28 ==> REQUEST/RESPONSE (Try=1/236.7643ms, OpTime=1.1257568s) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://azureadlsaccount.blob.core.windows.net/landing/SalesLT.Customer.json?se=2023-01-02T22%3A50%3A52Z&sig=-REDACTED-&sp=rwdlacyx&spr=https%2Chttp&srt=sco&ss=bf&st=2023-01-02T14%3A50%3A52Z&sv=2021-06-08&timeout=901
+   X-Ms-Request-Id: [ed12eefb-801e-008b-67b9-1e6acb000000]
+
+2023/01/02 14:52:28 ==> REQUEST/RESPONSE (Try=1/231.4529ms, OpTime=231.4529ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://azureadlsaccount.blob.core.windows.net/landing/SalesLT.Customer.json?se=2023-01-02T22%3A50%3A52Z&sig=-REDACTED-&sp=rwdlacyx&spr=https%2Chttp&srt=sco&ss=bf&st=2023-01-02T14%3A50%3A52Z&sv=2021-06-08&timeout=901
+   X-Ms-Request-Id: [ed12efc5-801e-008b-25b9-1e6acb000000]
+
+2023/01/02 14:52:32 Closing Log

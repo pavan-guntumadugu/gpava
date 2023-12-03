@@ -1,0 +1,34 @@
+2023/01/02 14:52:26 AzcopyVersion  10.16.2
+2023/01/02 14:52:26 OS-Environment  windows
+2023/01/02 14:52:26 OS-Architecture  amd64
+2023/01/02 14:52:26 Log times are in UTC. Local time is 2 Jan 2023 20:22:26
+2023/01/02 14:52:27 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2023-01-02T14:52:21Z or --include-after=2023-01-02T14:52:21Z
+2023/01/02 14:52:28 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2023/01/02 14:52:28 Job-Command copy https://azureadlsaccount.blob.core.windows.net/landing/SalesLT.Customer.json?se=2023-01-02t22%3A50%3A52z&sig=-REDACTED-&sp=rwdlacyx&spr=https%2Chttp&srt=sco&ss=bf&st=2023-01-02t14%3A50%3A52z&sv=2021-06-08 C:\Users\gpava\AppData\Local\Temp\16726711430020\SalesLT.Customer.json --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=BlobLocal --blob-type BlockBlob --recursive --log-level=INFO 
+2023/01/02 14:52:28 Number of CPUs: 16
+2023/01/02 14:52:28 Max file buffer RAM 8.000 GB
+2023/01/02 14:52:28 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2023/01/02 14:52:28 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2023/01/02 14:52:28 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2023/01/02 14:52:28 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2023/01/02 14:52:28 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2023/01/02 14:52:28 Max open files when downloading: 2147479959 (auto-computed)
+2023/01/02 14:52:28 Final job part has been created
+2023/01/02 14:52:28 Trying 4 concurrent connections (initial starting point)
+2023/01/02 14:52:28 JobID=adbd8a90-4d63-bc49-776e-8395d1e3865b, credential type: Anonymous
+2023/01/02 14:52:28 scheduling JobID=adbd8a90-4d63-bc49-776e-8395d1e3865b, Part#=0, Transfer#=0, priority=0
+2023/01/02 14:52:28 Final job part has been scheduled
+2023/01/02 14:52:28 INFO: [P#0-T#0] has worker 61 which is processing TRANSFER 0
+2023/01/02 14:52:30 ==> REQUEST/RESPONSE (Try=1/485.9211ms, OpTime=1.2149619s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://azureadlsaccount.blob.core.windows.net/landing/SalesLT.Customer.json?se=2023-01-02T22%3A50%3A52Z&sig=-REDACTED-&sp=rwdlacyx&spr=https%2Chttp&srt=sco&ss=bf&st=2023-01-02T14%3A50%3A52Z&sv=2021-06-08&timeout=901
+   X-Ms-Request-Id: [38246096-a01e-001a-0ab9-1e0f79000000]
+
+2023/01/02 14:52:30 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  1, GRs:  4
+2023/01/02 14:52:30 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 1.5051
+2023/01/02 14:52:30 WARN: [P#0-T#0] https://azureadlsaccount.blob.core.windows.net/landing/SalesLT.Customer.json?se=2023-01-02T22%3A50%3A52Z&sig=-REDACTED-&sp=rwdlacyx&spr=https%2Chttp&srt=sco&ss=bf&st=2023-01-02T14%3A50%3A52Z&sv=2021-06-08 no MD5 was stored in the Blob/File service against this file. So the downloaded data cannot be MD5-validated. Dst: \\?\C:\Users\gpava\AppData\Local\Temp\16726711430020\SalesLT.Customer.json
+2023/01/02 14:52:30 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\gpava\AppData\Local\Temp\16726711430020\SalesLT.Customer.json
+2023/01/02 14:52:30 JobID=adbd8a90-4d63-bc49-776e-8395d1e3865b, Part#=0, TransfersDone=1 of 1
+2023/01/02 14:52:30 all parts of entire Job adbd8a90-4d63-bc49-776e-8395d1e3865b successfully completed, cancelled or paused
+2023/01/02 14:52:30 is part of Job which 1 total number of parts done 
+2023/01/02 14:52:32 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs:  4
+2023/01/02 14:52:32 100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 

@@ -1,0 +1,13 @@
+2022/12/22 17:41:19 AzcopyVersion  10.16.2
+2022/12/22 17:41:19 OS-Environment  windows
+2022/12/22 17:41:19 OS-Architecture  amd64
+2022/12/22 17:41:19 Log times are in UTC. Local time is 22 Dec 2022 23:11:19
+2022/12/22 17:41:20 ==> REQUEST/RESPONSE (Try=1/241.5717ms, OpTime=1.0346194s) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://dataengiprojectazure1.blob.core.windows.net/pavan/arjun.jpg?se=2023-01-17T20%3A40%3A47Z&sig=-REDACTED-&sp=rwdlacyx&spr=https%2Chttp&srt=sco&ss=b&st=2022-12-22T12%3A40%3A47Z&sv=2021-06-08&timeout=901
+   X-Ms-Request-Id: [80782dcb-801e-003f-492c-166054000000]
+
+2022/12/22 17:41:21 ==> REQUEST/RESPONSE (Try=1/236.7016ms, OpTime=236.7016ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://dataengiprojectazure1.blob.core.windows.net/pavan/arjun.jpg?se=2023-01-17T20%3A40%3A47Z&sig=-REDACTED-&sp=rwdlacyx&spr=https%2Chttp&srt=sco&ss=b&st=2022-12-22T12%3A40%3A47Z&sv=2021-06-08&timeout=901
+   X-Ms-Request-Id: [80782e94-801e-003f-062c-166054000000]
+
+2022/12/22 17:41:23 Closing Log

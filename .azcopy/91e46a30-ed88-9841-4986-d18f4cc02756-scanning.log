@@ -1,0 +1,13 @@
+2022/12/25 05:15:13 AzcopyVersion  10.16.2
+2022/12/25 05:15:13 OS-Environment  windows
+2022/12/25 05:15:13 OS-Architecture  amd64
+2022/12/25 05:15:13 Log times are in UTC. Local time is 25 Dec 2022 10:45:13
+2022/12/25 05:15:14 ==> REQUEST/RESPONSE (Try=1/252.5036ms, OpTime=1.0435336s) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://dataengiprojectazure1.blob.core.windows.net/pavan/Tutuion%20fee%20all%20universities.xlsx?se=2023-01-17T20%3A40%3A47Z&sig=-REDACTED-&sp=rwdlacyx&spr=https%2Chttp&srt=sco&ss=b&st=2022-12-22T12%3A40%3A47Z&sv=2021-06-08&timeout=901
+   X-Ms-Request-Id: [54611a28-701e-002b-101f-18283b000000]
+
+2022/12/25 05:15:15 ==> REQUEST/RESPONSE (Try=1/240.2562ms, OpTime=240.2562ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://dataengiprojectazure1.blob.core.windows.net/pavan/Tutuion%20fee%20all%20universities.xlsx?se=2023-01-17T20%3A40%3A47Z&sig=-REDACTED-&sp=rwdlacyx&spr=https%2Chttp&srt=sco&ss=b&st=2022-12-22T12%3A40%3A47Z&sv=2021-06-08&timeout=901
+   X-Ms-Request-Id: [54611b61-701e-002b-261f-18283b000000]
+
+2022/12/25 05:15:17 Closing Log
